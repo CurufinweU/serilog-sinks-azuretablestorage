@@ -30,7 +30,7 @@ namespace Serilog
         /// A reasonable default for the number of events posted in
         /// each batch.
         /// </summary>
-        public const int DefaultBatchPostingLimit = 60;
+        public const int DefaultBatchPostingLimit = 50;
 
         /// <summary>
         /// A reasonable default time to wait between checking for event batches.
